@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Bot Control Panel</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        background: #a8c0ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin: 0;
+      }
+      .container {
+        text-align: center;
+      }
+      h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #333;
+      }
+      .button {
+        display: inline-block;
+        margin: 10px;
+        padding: 15px 30px;
+        font-size: 1.2em;
+        color: #fff;
+        background-color: #5da37d;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Twitter Sentiment Analysis Bot S Project</h1>
+      <a href="http://127.0.0.1:5001" target="_blank" class="button"
+        >Create Post</a
+      >
+      <a href="http://127.0.0.1:5002" target="_blank" class="button"
+        >Sentiment Analysis</a
+      >
+      <a href="http://127.0.0.1:5003" target="_blank" class="button"
+        >Get post</a
+      >
+      <a href="http://127.0.0.1:5004" target="_blank" class="button"
+        >Analyse a Twitter Account</a
+      >
+    </div>
+  </body>
+</html>
